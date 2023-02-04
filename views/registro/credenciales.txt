@@ -1,0 +1,38 @@
+//business
+Jonh Doe
+sb-qtl6e24930437@business.example.com
+_%UWTsj1
+
+//personal
+sb-3bxrf23947466@personal.example.com
+qf?mq@T0
+
+
+
+ /*
+            // Show a success message within this page, e.g.
+            const element = document.getElementById('paypal-button-container-virtual');
+            element.innerHTML = '';
+            element.innerHTML = '<h3>Gracias por su pago!</h3>';
+
+            // Or go to another URL:  actions.redirect('thank_you.html');
+            const datos = new FormData();
+            datos.append('paquete_id', orderData.purchase_units[0].description);
+            datos.append('pago_id', orderData.purchase_units[0].payments.captures[0].id);
+
+            fetch('/finalizar-registro/pagar', {
+                method: 'POST',
+                body: datos
+            })
+            .then(respuesta => respuesta.json())
+            .then(resultado => {
+                if(resultado.resultado){
+                    actions.redirect('http://localhost:3000/finalizar-registro/conferencias');
+                }
+            })
+            // Or go to another URL:  actions.redirect('thank_you.html');
+            
+          });
+        },
+
+*/
